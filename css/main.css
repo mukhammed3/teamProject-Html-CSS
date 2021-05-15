@@ -142,15 +142,78 @@ ul {
           transform: translateY(0);
 }
 
-.main-page-background {
-  background-color: blue;
+@media screen and (min-width: 320px) {
+  .main-page-background {
+    background-color: #ffb8ca;
+    min-height: 502px;
+  }
 }
 
-.mobile-circle {
-  overflow: hidden;
+@media screen and (min-width: 320px) {
+  .mobile-circle {
+    overflow: hidden;
+    max-width: 345px;
+    margin-left: 36px;
+  }
 }
 
-.mobile-circle__element {
-  position: absolute;
+@media screen and (min-width: 320px) {
+  .mobile-circle__element {
+    position: absolute;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .ice-cream-mobile {
+    width: 171px;
+    height: 410px;
+    position: relative;
+    z-index: 3;
+    left: 117px;
+    bottom: 311px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  header {
+    background-color: #ffb8ca;
+    min-width: 320px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .page-hero {
+    background-color: #ffb8ca;
+    min-width: 320px;
+    height: 446px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .mobile-slogan {
+    position: relative;
+    top: -622px;
+    z-index: 3;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .mobile-slogan__text {
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .mobile-slogan__item {
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #d41443;
+  }
 }
 /*# sourceMappingURL=main.css.map */

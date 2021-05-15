@@ -159,14 +159,75 @@ ul {
 // -------------------------------------main-page------------------------------------------
 // ----------------------------------------------------------------------------------------
 .main-page-background {
-  background-color: blue;
+  @media screen and (min-width: 320px) {
+    background-color: #ffb8ca;
+    min-height: 502px;
+  }
 }
 .mobile-circle {
-  overflow: hidden;
+  @media screen and (min-width: 320px) {
+    overflow: hidden;
+    max-width: 345px;
+
+    margin-left: 36px;
+  }
+
   &__element {
-    position: absolute;
+    @media screen and (min-width: 320px) {
+      position: absolute;
+    }
   }
 }
 // ----------------------------------------------------------------------------------------
 // -------------------------------------main-page------------------------------------------
 // ----------------------------------------------------------------------------------------
+.ice-cream-mobile {
+  @media screen and (min-width: 320px) {
+    width: 171px;
+    height: 410px;
+    position: relative;
+    z-index: 3;
+    left: 117px;
+    bottom: 311px;
+  }
+}
+header {
+  @media screen and (min-width: 320px) {
+    background-color: #ffb8ca;
+    min-width: 320px;
+  }
+}
+.page-hero {
+  @media screen and (min-width: 320px) {
+    background-color: #ffb8ca;
+    min-width: 320px;
+    height: 446px;
+  }
+}
+.mobile-slogan {
+  @media screen and (min-width: 320px) {
+    position: relative;
+    top: -622px;
+    z-index: 3;
+  }
+  &__text {
+    @media screen and (min-width: 320px) {
+      font-family: Titan One;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 26px;
+
+      color: #ffffff;
+    }
+  }
+  &__item {
+    @media screen and (min-width: 320px) {
+      font-family: Titan One;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 48px;
+
+      color: #d41443;
+    }
+  }
+}

@@ -88,7 +88,7 @@ ul {
 
 @media screen and (min-width: 768px) {
   .ham {
-    margin-right: 224px;
+    margin-left: 200px;
   }
 }
 
@@ -373,10 +373,6 @@ ul {
 
 @media screen and (min-width: 768px) {
   .tablet-button {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
     top: 40px;
     left: 545px;
   }

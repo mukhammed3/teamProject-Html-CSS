@@ -93,7 +93,7 @@ ul {
   }
 
   @media screen and (min-width: 768px) {
-    margin-right: 224px;
+    margin-left: 200px;
   }
 }
 
@@ -355,8 +355,6 @@ header {
 
 .tablet-button {
   @media screen and (min-width: 768px) {
-    display: flex;
-    position: absolute;
     top: 40px;
     left: 545px;
   }

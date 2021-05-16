@@ -35,9 +35,6 @@ ul {
   list-style-type: none;
 }
 
-.mobile-menu {
-}
-
 .tablet-container {
   padding-left: 20px;
   padding-right: 20px;
@@ -58,11 +55,17 @@ ul {
   display: none;
 }
 .header {
-  @media screen and (min-width: 320px) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 6px;
+  }
+
+  &__image {
+    @media screen and (min-width: 768px) {
+      margin-top: 37px;
+    }
   }
 }
 
@@ -205,10 +208,15 @@ header {
   }
 }
 .mobile-slogan {
-  @media screen and (min-width: 320px) {
-    position: relative;
+  position: relative;
+  z-index: 3;
+
+  @media screen and (min-width: 768px) {
+    bottom: 745px;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     top: -622px;
-    z-index: 3;
   }
   &__text {
     @media screen and (min-width: 320px) {
@@ -228,6 +236,47 @@ header {
       font-size: 48px;
 
       color: #d41443;
+    }
+  }
+}
+.main-button {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    position: absolute;
+    top: 318px;
+    z-index: 4;
+  }
+
+  &__item:first-child {
+    position: relative;
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      background: #d41443;
+      border-radius: 20px;
+
+      width: 62.4px;
+      height: 24px;
+      font-size: 8px;
+      border: none;
+      color: white;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: normal;
+    }
+  }
+
+  &__item:last-child {
+    position: relative;
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      background: #ffffff;
+      border-radius: 20px;
+
+      width: 82.8px;
+      height: 24px;
+      font-size: 8px;
+      border: none;
+      color: #d41443;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: normal;
     }
   }
 }

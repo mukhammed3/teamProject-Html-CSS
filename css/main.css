@@ -373,16 +373,25 @@ ul {
   .tablet-button {
     position: absolute;
     top: 40px;
+    left: 545px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .tablet-button__item {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: bold;
     position: relative;
     background: #ffffff;
     border-radius: 22px;
+    border: none;
     width: 160px;
     height: 44px;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #d41443;
   }
 }
 /*# sourceMappingURL=main.css.map */

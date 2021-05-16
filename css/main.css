@@ -63,7 +63,7 @@ ul {
 
 @media screen and (min-width: 768px) {
   .header__image {
-    margin-top: 37px;
+    margin-top: 5px;
   }
 }
 
@@ -169,6 +169,13 @@ ul {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .mobile-circle {
+    margin-left: 307px;
+    overflow: visible;
+  }
+}
+
 @media screen and (min-width: 320px) {
   .mobile-circle__element {
     position: absolute;
@@ -183,6 +190,12 @@ ul {
     z-index: 3;
     left: 117px;
     bottom: 311px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ice-cream-mobile {
+    left: 378px;
   }
 }
 
@@ -238,6 +251,12 @@ ul {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .mobile-slogan__item {
+    font-size: 37px;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .main-button {
     position: absolute;
@@ -249,7 +268,7 @@ ul {
 @media screen and (min-width: 768px) {
   .main-button {
     position: absolute;
-    top: 250px;
+    top: 210px;
   }
 }
 

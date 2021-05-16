@@ -62,6 +62,12 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
+  .header {
+    padding-top: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .header__image {
     margin-top: 5px;
   }
@@ -173,12 +179,14 @@ ul {
   .mobile-circle {
     margin-left: 307px;
     overflow: visible;
+    position: absolute;
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 768px) {
   .mobile-circle__element {
-    position: absolute;
+    position: relative;
+    bottom: 45px;
   }
 }
 
@@ -196,6 +204,9 @@ ul {
 @media screen and (min-width: 768px) {
   .ice-cream-mobile {
     left: 378px;
+    width: 143px;
+    height: 336px;
+    bottom: 27px;
   }
 }
 
@@ -214,6 +225,12 @@ ul {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .page-hero {
+    height: 310px;
+  }
+}
+
 .mobile-slogan {
   position: relative;
   z-index: 3;
@@ -221,7 +238,7 @@ ul {
 
 @media screen and (min-width: 768px) {
   .mobile-slogan {
-    bottom: 745px;
+    bottom: 310px;
   }
 }
 
@@ -268,7 +285,7 @@ ul {
 @media screen and (min-width: 768px) {
   .main-button {
     position: absolute;
-    top: 210px;
+    top: 240px;
   }
 }
 
@@ -308,5 +325,28 @@ ul {
     font-style: normal;
     font-weight: normal;
   }
+}
+
+.tablet-milk {
+  position: absolute;
+}
+
+@media screen and (max-width: 767px) {
+  .tablet-milk {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tablet-milk {
+    display: block;
+    width: 124px;
+    height: 126px;
+    top: 265px;
+  }
+}
+
+.tablet-milk__imagine {
+  position: relative;
 }
 /*# sourceMappingURL=main.css.map */

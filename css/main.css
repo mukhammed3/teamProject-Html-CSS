@@ -429,6 +429,11 @@ ul {
 .tablet-description__icon {
   position: relative;
   bottom: 25px;
+  left: 24px;
+}
+
+.tablet-description__icon:nth-child(2) {
+  left: 28px;
 }
 
 @media screen and (min-width: 768px) {
@@ -451,13 +456,38 @@ ul {
     font-style: normal;
     font-weight: normal;
     font-size: 8px;
-    position: absolute;
     right: 14px;
     bottom: 2px;
+    position: relative;
+    color: #ffffff;
   }
+}
+
+@media screen and (min-width: 768px) {
+  .tablet-description__text--second {
+    bottom: 20px;
+  }
+}
+
+.tablet-description__slogan--second {
+  bottom: 10px;
+  right: 10px;
+  color: #ffffff;
 }
 
 .tablet-description + .tablet-description {
   margin-top: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .tablet-tasty {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tablet-tasty {
+    position: absolute;
+  }
 }
 /*# sourceMappingURL=main.css.map */

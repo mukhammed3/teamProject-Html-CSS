@@ -287,6 +287,12 @@ ul {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .mobile-slogan {
+    bottom: 519px;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .mobile-slogan {
     top: -622px;
@@ -300,6 +306,12 @@ ul {
     font-weight: 400;
     font-size: 26px;
     color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .mobile-slogan__text {
+    font-size: 37px;
   }
 }
 
@@ -319,6 +331,12 @@ ul {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .mobile-slogan__item {
+    font-size: 58px;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .main-button {
     position: absolute;
@@ -334,41 +352,63 @@ ul {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .main-button {
+    top: 330px;
+  }
+}
+
 .main-button__item:first-child {
   position: relative;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  background: #d41443;
 }
 
 @media screen and (min-width: 320px) {
   .main-button__item:first-child {
-    background: #d41443;
-    border-radius: 20px;
     width: 62.4px;
     height: 24px;
     font-size: 8px;
-    border: none;
-    color: white;
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: normal;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main-button__item:first-child {
+    width: 104px;
+    height: 40px;
+    font-size: 14px;
   }
 }
 
 .main-button__item:last-child {
   position: relative;
+  background: #ffffff;
+  border-radius: 20px;
+  border: none;
+  color: #d41443;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
 }
 
 @media screen and (min-width: 320px) {
   .main-button__item:last-child {
-    background: #ffffff;
-    border-radius: 20px;
     width: 82.8px;
     height: 24px;
     font-size: 8px;
-    border: none;
-    color: #d41443;
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: normal;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .main-button__item:last-child {
+    width: 138px;
+    height: 40px;
+    font-size: 14px;
   }
 }
 
@@ -391,8 +431,21 @@ ul {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .tablet-milk {
+    top: 435px;
+  }
+}
+
 .tablet-milk__imagine {
   position: relative;
+}
+
+@media screen and (min-width: 1280px) {
+  .tablet-milk__imagine {
+    width: 188px;
+    height: 191px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -403,20 +456,36 @@ ul {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .tablet-slogan {
+    top: 500px;
+    left: 300px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .tablet-slogan {
     display: none;
   }
 }
 
+.tablet-slogan__text {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+}
+
 @media screen and (min-width: 768px) {
   .tablet-slogan__text {
     position: relative;
     color: #ffffff;
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .tablet-slogan__text {
+    font-size: 14px;
   }
 }
 
@@ -475,14 +544,34 @@ ul {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .tablet-description {
+    top: 190px;
+  }
+}
+
 .tablet-description__icon {
   position: relative;
   bottom: 25px;
   left: 24px;
 }
 
+@media screen and (min-width: 1200px) {
+  .tablet-description__icon {
+    width: 30px;
+    height: 30px;
+    left: 44px;
+  }
+}
+
 .tablet-description__icon:nth-child(2) {
   left: 28px;
+}
+
+@media screen and (min-width: 1280px) {
+  .tablet-description__icon:nth-child(2) {
+    left: 46px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -499,6 +588,12 @@ ul {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .tablet-description__text {
+    font-size: 46px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .tablet-description__slogan {
     font-family: DM Sans;
@@ -509,6 +604,12 @@ ul {
     bottom: 2px;
     position: relative;
     color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .tablet-description__slogan {
+    font-size: 14px;
   }
 }
 
@@ -528,6 +629,12 @@ ul {
   margin-top: 50px;
 }
 
+@media screen and (min-width: 1200px) {
+  .tablet-description + .tablet-description {
+    margin-top: 70px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .tablet-tasty {
     display: none;
@@ -541,8 +648,24 @@ ul {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .tablet-tasty {
+    top: 446px;
+    left: 776px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .tablet-tasty__imagine {
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .tablet-tasty__imagine {
+    width: 293px;
+    height: 232px;
+    background-image: url(../../images/tasty_descktop.png);
     position: relative;
   }
 }

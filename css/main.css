@@ -40,6 +40,14 @@ ul {
   }
 }
 
+@media screen and (min-width: 1279px) {
+  .tablet-container {
+    min-width: 1200px;
+    padding-left: 115px;
+    padding-right: 115px;
+  }
+}
+
 .navigation {
   display: none;
 }
@@ -89,6 +97,12 @@ ul {
 @media screen and (min-width: 768px) {
   .ham {
     margin-left: 200px;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .ham {
+    display: none;
   }
 }
 
@@ -185,10 +199,23 @@ ul {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .mobile-circle {
+    left: 94px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .mobile-circle__element {
     position: relative;
     bottom: 45px;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .mobile-circle__element {
+    width: 538px;
+    height: 538px;
   }
 }
 
@@ -203,12 +230,22 @@ ul {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .ice-cream-mobile {
     left: 378px;
     width: 143px;
     height: 336px;
     bottom: 27px;
+  }
+}
+
+@media screen and (min-width: 1280px), (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .ice-cream-mobile {
+    background-image: url(../../images/ice_descktop.png);
+    width: 236px;
+    height: 557px;
+    top: 30px;
+    left: 500px;
   }
 }
 
@@ -230,6 +267,12 @@ ul {
 @media screen and (min-width: 768px) {
   .page-hero {
     height: 310px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .page-hero {
+    height: 589px;
   }
 }
 
@@ -357,6 +400,12 @@ ul {
     position: absolute;
     top: 325px;
     left: 135px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tablet-slogan {
+    display: none;
   }
 }
 
@@ -496,5 +545,35 @@ ul {
   .tablet-tasty__imagine {
     position: relative;
   }
+}
+
+@media screen and (max-width: 1279px) {
+  .descktop-menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .descktop-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    z-index: 6;
+  }
+}
+
+.descktop-menu__item {
+  margin-right: 35px;
+  list-style: none;
+}
+
+.descktop-menu__link {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
 }
 /*# sourceMappingURL=main.css.map */

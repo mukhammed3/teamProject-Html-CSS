@@ -330,3 +330,42 @@ header {
     position: relative;
   }
 }
+
+.tablet-slogan {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    top: 325px;
+    left: 135px;
+  }
+
+  &__text {
+    @media screen and (min-width: 768px) {
+      position: relative;
+      color: #ffffff;
+
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 8px;
+    }
+  }
+}
+
+.tablet-button {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    top: 40px;
+  }
+
+  &__item {
+    @media screen and (min-width: 768px) {
+      position: relative;
+
+      background: #ffffff;
+      border-radius: 22px;
+
+      width: 160px;
+      height: 44px;
+    }
+  }
+}

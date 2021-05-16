@@ -349,4 +349,40 @@ ul {
 .tablet-milk__imagine {
   position: relative;
 }
+
+@media screen and (min-width: 768px) {
+  .tablet-slogan {
+    position: absolute;
+    top: 325px;
+    left: 135px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tablet-slogan__text {
+    position: relative;
+    color: #ffffff;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tablet-button {
+    position: absolute;
+    top: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tablet-button__item {
+    position: relative;
+    background: #ffffff;
+    border-radius: 22px;
+    width: 160px;
+    height: 44px;
+  }
+}
 /*# sourceMappingURL=main.css.map */

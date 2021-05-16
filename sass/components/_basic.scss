@@ -55,13 +55,12 @@ ul {
   display: none;
 }
 .header {
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (min-width: 320px) {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 6px;
   }
-
   &__image {
     @media screen and (min-width: 768px) {
       margin-top: 37px;
@@ -85,6 +84,10 @@ ul {
     border: none;
     background: transparent;
     cursor: pointer;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-right: 224px;
   }
 }
 
@@ -246,9 +249,14 @@ header {
     z-index: 4;
   }
 
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    top: 250px;
+  }
+
   &__item:first-child {
     position: relative;
-    @media screen and (min-width: 320px) and (max-width: 767px) {
+    @media screen and (min-width: 320px) {
       background: #d41443;
       border-radius: 20px;
 
@@ -265,7 +273,7 @@ header {
 
   &__item:last-child {
     position: relative;
-    @media screen and (min-width: 320px) and (max-width: 767px) {
+    @media screen and (min-width: 320px) {
       background: #ffffff;
       border-radius: 20px;
 

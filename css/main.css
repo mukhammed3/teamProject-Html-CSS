@@ -46,7 +46,7 @@ ul {
   display: none;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) {
   .header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -75,6 +75,12 @@ ul {
     border: none;
     background: transparent;
     cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ham {
+    margin-right: 224px;
   }
 }
 
@@ -240,11 +246,18 @@ ul {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .main-button {
+    position: absolute;
+    top: 250px;
+  }
+}
+
 .main-button__item:first-child {
   position: relative;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) {
   .main-button__item:first-child {
     background: #d41443;
     border-radius: 20px;
@@ -263,7 +276,7 @@ ul {
   position: relative;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) {
   .main-button__item:last-child {
     background: #ffffff;
     border-radius: 20px;

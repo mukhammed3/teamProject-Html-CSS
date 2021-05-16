@@ -36,16 +36,18 @@ ul {
 }
 
 .tablet-container {
-  padding-left: 20px;
-  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 
   @media screen and (min-width: 320px) {
     min-width: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   @media screen and (min-width: 768px) {
     min-width: 768px;
+    padding-left: 34px;
+    padding-right: 34px;
   }
 }
 .navigation {
@@ -353,6 +355,7 @@ header {
 
 .tablet-button {
   @media screen and (min-width: 768px) {
+    display: flex;
     position: absolute;
     top: 40px;
     left: 545px;

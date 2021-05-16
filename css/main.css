@@ -401,4 +401,63 @@ ul {
     color: #d41443;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .description-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .description-flex {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tablet-description {
+    position: absolute;
+    top: 115px;
+  }
+}
+
+.tablet-description__icon {
+  position: relative;
+  bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .tablet-description__text {
+    position: absolute;
+    bottom: 9px;
+    right: 8px;
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #d41443;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tablet-description__slogan {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    position: absolute;
+    right: 14px;
+    bottom: 2px;
+  }
+}
+
+.tablet-description + .tablet-description {
+  margin-top: 50px;
+}
 /*# sourceMappingURL=main.css.map */
